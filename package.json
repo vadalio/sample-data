@@ -1,0 +1,33 @@
+{
+  "name": "vadalio-sample-data",
+  "version": "1.0.0",
+  "description": "Sample data for different databases. Useful for testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No test specified so far, that's bad!\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vadalio/sample-data.git"
+  },
+  "keywords": [
+    "sql",
+    "sqlite",
+    "mysql",
+    "postgresql",
+    "access",
+    "mongodb",
+    "couchdb",
+    "redis"
+  ],
+  "author": "Yacine Rezgui <rezgui.y@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/vadalio/sample-data/issues"
+  },
+  "homepage": "https://github.com/vadalio/sample-data#readme",
+  "dependencies": {
+    "faker": "^3.0.1",
+    "knex": "^0.8.6"
+  }
+}
